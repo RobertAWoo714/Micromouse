@@ -412,6 +412,14 @@
     [
       "9f13efa1-6bd5-4a7e-a4ab-2916a4570f81",
       "Root"
+    ],
+    [
+      "3427be82-3e47-4ebd-9c5b-14c03144c156",
+      "IR_Emitter_Receiver"
+    ],
+    [
+      "331c13d6-1eca-4c6d-9f54-5ae7f7b7b669",
+      "Motor_Driver"
     ]
   ],
   "text_variables": {}
