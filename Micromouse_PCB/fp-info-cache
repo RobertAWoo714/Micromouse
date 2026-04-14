@@ -1,4 +1,4 @@
-27297936014151588
+27303264585146407
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107128,6 +107128,13 @@ UCIRP-KiCAD-Lib
 8
 8
 UCIRP-KiCAD-Lib
+3V3_LDO_AZ1117CH-3.3TRG1
+
+
+0
+4
+3
+UCIRP-KiCAD-Lib
 5V_LDO AS78L05RTR-E1
 
 
@@ -107155,6 +107162,13 @@ Altimeter MS5607-02BA
 0
 8
 8
+UCIRP-KiCAD-Lib
+Brushed_Motor Pololu_HPCB_12V_with_ENC_SIDE
+
+
+0
+0
+0
 UCIRP-KiCAD-Lib
 Connector_3x9pin_2.54mm_Horizontal HTSW-109-08-T-T-RA
 
@@ -107211,6 +107225,13 @@ GX-16 3 pin
 0
 3
 3
+UCIRP-KiCAD-Lib
+Horizontal_Slide_Swiitch SK12D07VG4NSPA_CNK
+
+SK12D07VG4NSPA 
+0
+5
+5
 UCIRP-KiCAD-Lib
 IMU BMI088
 

@@ -791,6 +791,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 57.15) (xy 29.21 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fe1906-ee82-4773-bee3-4dde3c8a1a46")
+	)
+	(wire
+		(pts
 			(xy 121.92 33.02) (xy 128.27 33.02)
 		)
 		(stroke
@@ -838,6 +848,16 @@
 			(type default)
 		)
 		(uuid "8173ed77-bd43-4d97-9cf0-50575e943b18")
+	)
+	(wire
+		(pts
+			(xy 25.4 25.4) (xy 29.21 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99fd98d-83cb-4d18-92b1-431c3b944e75")
 	)
 	(wire
 		(pts
@@ -4184,7 +4204,7 @@
 		)
 	)
 	(label "Left_IN2"
-		(at 25.4 31.75 0)
+		(at 25.4 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4194,7 +4214,7 @@
 		(uuid "00504867-4382-4c92-ac27-0f0a895da33c")
 	)
 	(label "Left_IN1"
-		(at 25.4 25.4 0)
+		(at 25.4 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4204,7 +4224,7 @@
 		(uuid "0754e162-e63b-425d-b375-5df95505606d")
 	)
 	(label "Right_OUT2"
-		(at 177.8 44.45 180)
+		(at 177.8 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4214,7 +4234,7 @@
 		(uuid "0a586d5f-bc87-42b9-a23b-c540969049cf")
 	)
 	(label "Right_IN1"
-		(at 25.4 38.1 0)
+		(at 25.4 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4264,7 +4284,7 @@
 		(uuid "250a4cce-591c-4a26-83f6-2cded902974f")
 	)
 	(label "Left_OUT2"
-		(at 177.8 31.75 180)
+		(at 177.8 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4294,7 +4314,7 @@
 		(uuid "38a5bca1-e96e-402f-bd17-4a16b59b2106")
 	)
 	(label "Right_OUT1"
-		(at 177.8 38.1 180)
+		(at 177.8 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4304,7 +4324,7 @@
 		(uuid "6949480a-3627-4a4d-9fe1-98e70ea87b8d")
 	)
 	(label "Right_IN2"
-		(at 25.4 44.45 0)
+		(at 25.4 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4314,7 +4334,7 @@
 		(uuid "84f88dec-5789-4bc4-8a88-48d3c786972c")
 	)
 	(label "Left_OUT1"
-		(at 177.8 25.4 180)
+		(at 177.8 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4345,7 +4365,7 @@
 	)
 	(hierarchical_label "Right_OUT2"
 		(shape output)
-		(at 177.8 44.45 0)
+		(at 177.8 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4354,9 +4374,20 @@
 		)
 		(uuid "152039f3-8986-4b71-8a4c-d70c82ce21b2")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 25.4 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6164da39-e6d3-46ac-8502-e55c13340acb")
+	)
 	(hierarchical_label "Left_OUT1"
 		(shape output)
-		(at 177.8 25.4 0)
+		(at 177.8 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4367,7 +4398,7 @@
 	)
 	(hierarchical_label "Left_IN1"
 		(shape input)
-		(at 25.4 25.4 180)
+		(at 25.4 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4378,7 +4409,7 @@
 	)
 	(hierarchical_label "Right_IN2"
 		(shape input)
-		(at 25.4 44.45 180)
+		(at 25.4 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4387,9 +4418,20 @@
 		)
 		(uuid "a53f177e-d1de-4980-9bd6-2a21915bab26")
 	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 25.4 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6f98081-53f5-4e67-82bf-297796d2c95c")
+	)
 	(hierarchical_label "Right_OUT1"
 		(shape output)
-		(at 177.8 38.1 0)
+		(at 177.8 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4400,7 +4442,7 @@
 	)
 	(hierarchical_label "Left_IN2"
 		(shape input)
-		(at 25.4 31.75 180)
+		(at 25.4 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4411,7 +4453,7 @@
 	)
 	(hierarchical_label "Right_IN1"
 		(shape input)
-		(at 25.4 38.1 180)
+		(at 25.4 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4422,7 +4464,7 @@
 	)
 	(hierarchical_label "Left_OUT2"
 		(shape output)
-		(at 177.8 31.75 0)
+		(at 177.8 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4430,6 +4472,72 @@
 			(justify left)
 		)
 		(uuid "f41397df-c5f4-4eaa-abf5-b812330e90dc")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0391ecde-b9d0-4d97-ab37-0b1bfe256cff")
+		(property "Reference" "#PWR057"
+			(at 29.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a5470f7-232b-4f71-a80c-6dc09bbefdc9")
+		)
+		(instances
+			(project "Micromouse_PCB"
+				(path "/9f13efa1-6bd5-4a7e-a4ab-2916a4570f81/331c13d6-1eca-4c6d-9f54-5ae7f7b7b669"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4492,6 +4600,72 @@
 			(project "Micromouse_PCB"
 				(path "/9f13efa1-6bd5-4a7e-a4ab-2916a4570f81/331c13d6-1eca-4c6d-9f54-5ae7f7b7b669"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 29.21 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ed91ad4-f53e-4774-8e82-3dcb2d85f717")
+		(property "Reference" "#PWR058"
+			(at 29.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 29.21 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6eaed0b8-2014-48e9-ac53-a61706637550")
+		)
+		(instances
+			(project "Micromouse_PCB"
+				(path "/9f13efa1-6bd5-4a7e-a4ab-2916a4570f81/331c13d6-1eca-4c6d-9f54-5ae7f7b7b669"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
