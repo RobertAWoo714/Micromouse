@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +216,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -627,6 +645,10 @@
       "Motor"
     ],
     [
+      "49afbd51-f0d6-4181-9777-718b927ef24e",
+      "One_Emitter_Receiver2"
+    ],
+    [
       "3b04b12b-038f-4377-8298-5b31daf25301",
       "IMU"
     ],
@@ -641,6 +663,26 @@
     [
       "12548135-7ca8-492b-86e5-9448cb1395da",
       "PDN"
+    ],
+    [
+      "78a29e64-87f7-4c4d-98b2-2d85ab6f3aa5",
+      "One_Emitter_Receiver1"
+    ],
+    [
+      "029422b1-26a4-48b7-892e-017f2d23f752",
+      "One_Emitter_Receiver3"
+    ],
+    [
+      "d58617d8-170a-4968-846b-6324ce4ef2a8",
+      "One_Emitter_Receiver4"
+    ],
+    [
+      "689b220a-beb1-4e59-bc4a-bdd2918b0db4",
+      "One_Emitter_Receiver5"
+    ],
+    [
+      "06cac956-eb73-4137-9655-52164f79b17c",
+      "One_Emitter_Receiver6"
     ]
   ],
   "text_variables": {}

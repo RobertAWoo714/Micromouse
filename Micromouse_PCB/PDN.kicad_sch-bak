@@ -466,8 +466,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U7"
-				(at 0 6.35 0)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -475,11 +475,12 @@
 				)
 			)
 			(property "Value" "NCP1117-1.5_TO252"
-				(at 0 3.81 0)
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
@@ -527,18 +528,20 @@
 					(hide yes)
 				)
 			)
-			(symbol "NCP1117-1.5_TO252_1_1"
+			(symbol "NCP1117-1.5_TO252_0_1"
 				(rectangle
 					(start -5.08 1.905)
 					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
+			)
+			(symbol "NCP1117-1.5_TO252_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -1385,8 +1388,8 @@
 		(uuid "fcdc0ffa-0967-48f2-8742-d4a82d588706")
 	)
 	(image
-		(at 50.8 107.95)
-		(scale 1.12668)
+		(at 50.8 105.41)
+		(scale 1.20787)
 		(uuid "f352f234-f92d-4a31-b63e-f647003239e2")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAscAAAHRCAIAAAAJ84NiAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOydeTyU2//Az4wZE0OGhJQ23URF3ShKyBJKpNKqZex1ad+0faOylNIqyVJU6hZaJBGyz0JGC0Wp"

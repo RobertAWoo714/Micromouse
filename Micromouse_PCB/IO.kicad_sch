@@ -6392,7 +6392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCIRP-KiCAD-Lib:Horizontal_Slide_Swiitch SK12D07VG4NSPA_CNK"
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
 			(at 35.56 34.29 0)
 			(effects
 				(font
