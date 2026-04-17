@@ -4515,6 +4515,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 218.44 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ebaf572-c045-4dab-b72b-1fdb4745b1b5")
+		(property "Reference" "#PWR0129"
+			(at 218.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 218.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90846c13-d683-4b82-b0c9-1e9bbe42fbfd")
+		)
+		(instances
+			(project "Micromouse_PCB"
+				(path "/9f13efa1-6bd5-4a7e-a4ab-2916a4570f81"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 67.31 133.35 0)
 		(mirror y)
@@ -4598,7 +4663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3V3"
 			(at 99.06 36.83 0)
 			(effects
 				(font
@@ -4664,7 +4729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 222.25 74.93 0)
 			(effects
 				(font
@@ -4843,71 +4908,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 77.47 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5fc12f74-4a91-43ce-b211-fa2c7c63ed79")
-		(property "Reference" "#PWR0126"
-			(at 77.47 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 77.47 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0909546-53e8-428d-ba34-693c8d3d4750")
-		)
-		(instances
-			(project "Micromouse_PCB"
-				(path "/9f13efa1-6bd5-4a7e-a4ab-2916a4570f81"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 43.18 40.64 0)
 		(unit 1)
@@ -5042,16 +5042,16 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 218.44 82.55 0)
+		(at 77.47 31.75 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ce28decd-0f26-4278-a8f1-7ff9195e512d")
-		(property "Reference" "#PWR0129"
-			(at 218.44 86.36 0)
+		(uuid "be94e692-493f-4375-a44f-ea4bdae1d402")
+		(property "Reference" "#PWR0126"
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,8 +5059,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
-			(at 218.44 78.74 0)
+		(property "Value" "+5V"
+			(at 77.47 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,7 +5068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 82.55 0)
+			(at 77.47 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +5077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 82.55 0)
+			(at 77.47 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,7 +5086,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 218.44 82.55 0)
+			(at 77.47 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,12 +5095,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c537c9d-3e81-4dd5-9c2a-776286a2fd6e")
+			(uuid "cf653bc7-a5ac-41fb-967a-4a498f835303")
 		)
 		(instances
 			(project "Micromouse_PCB"
 				(path "/9f13efa1-6bd5-4a7e-a4ab-2916a4570f81"
-					(reference "#PWR0129")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -5262,26 +5262,6 @@
 				(justify right)
 			)
 		)
-		(pin "LED_Thinking" input
-			(at 34.29 109.22 0)
-			(uuid "9e80f7c1-018e-41c1-97b5-b5578610a4af")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED_Error" input
-			(at 34.29 97.79 0)
-			(uuid "1699e999-ae03-4c20-9eb7-6db025c91a37")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Start" output
 			(at 34.29 76.2 0)
 			(uuid "b308744d-90b8-4bbf-8acd-d287f5ab40d6")
@@ -5315,6 +5295,26 @@
 		(pin "VBUS" bidirectional
 			(at 34.29 25.4 0)
 			(uuid "d8348c47-08d7-42b5-b752-3d25952314be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_Thinking1" input
+			(at 34.29 97.79 0)
+			(uuid "69b3e873-5eb2-491b-a6c1-e0b3c4a82a04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_Thinking2" input
+			(at 34.29 109.22 0)
+			(uuid "41c429d1-44b8-45c3-91d4-8e778d06a2d2")
 			(effects
 				(font
 					(size 1.27 1.27)

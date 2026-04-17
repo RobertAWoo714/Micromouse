@@ -4784,7 +4784,7 @@
 		)
 		(uuid "187be866-8c68-4754-a508-7cf0fe88a266")
 	)
-	(label "LED_Thinking"
+	(label "LED_Thinking2"
 		(at 154.94 19.05 0)
 		(effects
 			(font
@@ -4794,7 +4794,17 @@
 		)
 		(uuid "389b04a4-de87-4ee6-b8e6-53596aa4613e")
 	)
-	(label "LED_Thinking"
+	(label "LED_Thinking1"
+		(at 182.88 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ad11f86-bd5f-4d5f-9d52-636fa75e0ff6")
+	)
+	(label "LED_Thinking2"
 		(at 182.88 91.44 180)
 		(effects
 			(font
@@ -4844,16 +4854,6 @@
 		)
 		(uuid "bfdd8c86-fc66-4eed-ae55-4cf69ac6f957")
 	)
-	(label "LED_Error"
-		(at 182.88 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c4b9f2c4-06fd-4549-af3c-7b636b434258")
-	)
 	(label "BAT_ADC"
 		(at 77.47 24.13 0)
 		(effects
@@ -4876,7 +4876,7 @@
 		)
 		(uuid "d494799b-fca6-4a51-b7ad-9c00bdb427db")
 	)
-	(label "LED_Error"
+	(label "LED_Thinking1"
 		(at 99.06 19.05 0)
 		(effects
 			(font
@@ -4938,7 +4938,7 @@
 		)
 		(uuid "25f038b1-8e52-4f2f-acd6-4d80981611dd")
 	)
-	(hierarchical_label "LED_Thinking"
+	(hierarchical_label "LED_Thinking2"
 		(shape input)
 		(at 182.88 91.44 0)
 		(effects
@@ -4961,7 +4961,7 @@
 		)
 		(uuid "86f7d803-d2fa-44f5-a43f-f4c489b25e4a")
 	)
-	(hierarchical_label "LED_Error"
+	(hierarchical_label "LED_Thinking1"
 		(shape input)
 		(at 182.88 72.39 0)
 		(effects
@@ -5037,7 +5037,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "052beb67-636c-4249-99ba-1ac80c06b586")
 		(property "Reference" "#PWR093"
 			(at 129.54 50.8 0)
@@ -5048,12 +5047,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 129.54 41.91 0)
+		(property "Value" "+3V3"
+			(at 126.746 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5917,7 +5917,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4e4f1e8a-3f20-41ca-a92d-b48dbb99bc0e")
 		(property "Reference" "#PWR099"
 			(at 36.83 49.53 0)
@@ -5928,12 +5927,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 36.83 40.64 0)
+		(property "Value" "+3V3"
+			(at 33.782 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6510,7 +6510,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6fd3b5c3-188a-45d4-b2e9-339ad81a699f")
 		(property "Reference" "#PWR095"
 			(at 116.84 50.8 0)
@@ -6521,12 +6520,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 116.84 41.91 0)
+		(property "Value" "+3V3"
+			(at 113.792 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7472,7 +7472,7 @@
 		(dnp no)
 		(uuid "af096690-c416-4ce0-a2b4-c8e442427214")
 		(property "Reference" "J5"
-			(at 162.56 49.53 0)
+			(at 162.306 41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,7 +7480,7 @@
 			)
 		)
 		(property "Value" "ALARM PKLCS1212E"
-			(at 162.56 52.07 0)
+			(at 158.496 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7709,24 +7709,24 @@
 		(dnp no)
 		(uuid "c11b990f-9e3d-41aa-b905-919e3256581b")
 		(property "Reference" "J4"
-			(at 20.32 26.6701 0)
+			(at 12.192 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Power"
-			(at 20.32 24.1301 0)
+		(property "Value" "Power XT30UPB-M"
+			(at 12.192 21.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
 			(at 21.59 26.67 0)
 			(effects
 				(font
@@ -7735,7 +7735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Changzhou_AmassElec-XT30UM/C99101"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Changzhou_AmassElec-XT30UPBM/C428721"
 			(at 21.59 26.67 0)
 			(effects
 				(font
@@ -7776,7 +7776,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c1a053fa-5dbd-4a29-a92e-e0345f12f339")
 		(property "Reference" "#PWR0100"
 			(at 36.83 68.58 0)
@@ -7787,12 +7786,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 36.83 59.69 0)
+		(property "Value" "+3V3"
+			(at 33.782 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8126,7 +8126,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f01d327a-62c0-488a-b990-140b535ae23c")
 		(property "Reference" "#PWR0154"
 			(at 157.48 49.53 0)
@@ -8137,13 +8136,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 149.86 49.5299 90)
+		(property "Value" "+3V3"
+			(at 147.066 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
