@@ -1497,9 +1497,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Wuerth_450301014042"
+		(symbol "Switch:SW_SPDT"
 			(pin_names
-				(offset 1)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1513,7 +1513,7 @@
 					)
 				)
 			)
-			(property "Value" "Slide switch"
+			(property "Value" "SW_SPDT"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -1521,8 +1521,8 @@
 					)
 				)
 			)
-			(property "Footprint" "UCIRP-KiCAD-Lib:Horizontal_Slide_Swiitch SK12D07VG4NSPA_CNK"
-				(at 0 -10.16 0)
+			(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1530,7 +1530,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+			(property "Datasheet" "https://jlcpcb.com/partdetail/ALPSALPINE-SSSF011700/C97435"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1539,7 +1539,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Switch slide, single pole double throw"
+			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1548,7 +1548,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "changeover single-pole opposite-side-connection double-throw spdt ON-ON"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1557,16 +1557,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Wuerth_450301014042_0_1"
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.4572)
@@ -1613,7 +1604,7 @@
 					)
 				)
 			)
-			(symbol "SW_Wuerth_450301014042_1_1"
+			(symbol "SW_SPDT_1_1"
 				(rectangle
 					(start -3.175 3.81)
 					(end 3.175 -3.81)
@@ -1635,7 +1626,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1653,7 +1644,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1671,7 +1662,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5910,6 +5901,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 35.56 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47c1c049-fefc-46f4-b5c2-f03d06a10332")
+		(property "Reference" "SW1"
+			(at 35.56 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 35.56 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/ALPSALPINE-SSSF011700/C97435"
+			(at 35.56 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52894b5d-a34e-45bd-8071-318205b93600")
+		)
+		(pin "3"
+			(uuid "342ffb62-4b35-45b2-bd27-9057d80f295a")
+		)
+		(pin "1"
+			(uuid "6379fb0d-895f-4ad7-b204-2ef660a4eb54")
+		)
+		(instances
+			(project "Micromouse_PCB"
+				(path "/9f13efa1-6bd5-4a7e-a4ab-2916a4570f81/15254475-5d2a-44e7-a1a0-3b0c57d423c1"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 36.83 45.72 0)
 		(unit 1)
@@ -6361,77 +6423,6 @@
 			(project "Micromouse_PCB"
 				(path "/9f13efa1-6bd5-4a7e-a4ab-2916a4570f81/15254475-5d2a-44e7-a1a0-3b0c57d423c1"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Wuerth_450301014042")
-		(at 35.56 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d7e677b-0d24-4c20-8041-7bb112df55c5")
-		(property "Reference" "SW1"
-			(at 35.56 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Slide switch"
-			(at 35.56 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
-			(at 35.56 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
-			(at 35.56 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch slide, single pole double throw"
-			(at 35.56 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40a8a3b3-5613-4758-b0ae-a2585a154bfa")
-		)
-		(pin "3"
-			(uuid "2ef5d4d7-1c0c-4660-a3fe-4c50434d3745")
-		)
-		(pin "1"
-			(uuid "56f37b86-79e6-4302-bce2-5e4299d19a76")
-		)
-		(instances
-			(project "Micromouse_PCB"
-				(path "/9f13efa1-6bd5-4a7e-a4ab-2916a4570f81/15254475-5d2a-44e7-a1a0-3b0c57d423c1"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -7389,7 +7380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "DMG3402LQ"
 			(at 154.94 63.5 0)
 			(effects
 				(font
@@ -7565,7 +7556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GREEN_LED"
+		(property "Value" "Purple_LED"
 			(at 152.4 33.02 90)
 			(effects
 				(font

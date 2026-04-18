@@ -4482,7 +4482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "DMG3402LQ"
 			(at 85.1916 43.053 0)
 			(effects
 				(font
@@ -4918,7 +4918,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50Ω 1W"
+		(property "Value" "50Ω 1.5W"
 			(at 85.344 34.0614 0)
 			(effects
 				(font
